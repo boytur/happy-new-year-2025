@@ -72,7 +72,7 @@ const server = http.createServer((req, res) => {
   // Stop animation after 15 seconds
   setTimeout(() => {
     clearInterval(interval);
-  });
+  }, 15000);
 });
 
 // Start server on port 2025
