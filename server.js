@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 const http = require("http");
 
 const bsospaceText = `
